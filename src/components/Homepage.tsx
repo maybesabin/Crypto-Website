@@ -59,10 +59,10 @@ const Homepage = () => {
             <Navbar />
 
             {/* Hero Section  */}
-            <section className='lg:w-[75vw] w-full lg:px-0 px-9 flex items-center justify-between relative py-[7rem]'>
+            <section className='lg:w-[75vw] w-full lg:px-0 px-4 flex items-center justify-between relative py-[7rem]'>
 
                 <div className='flex flex-col items-start justify-start gap-9'>
-                    <div className='flex flex-col items-start justify-start gap-4 lg:text-7xl text-5xl font-bold tracking-wider'>
+                    <div className='flex flex-col items-start justify-start gap-4 lg:text-7xl text-4xl font-bold tracking-wider'>
                         <p className='lg:text-[1rem] text-xs flex items-center gap-2 text-white main-font tracking-[0.2rem]'>KEEP YOUR MONEY SAFE <span className='text-[#bcfd04] lg:text-3xl text-xl main-font'>!</span></p>
                         <h1 className='bg-gradient-to-r from-white to-gray-700 bg-clip-text text-transparent main-font'>Best crypto</h1>
                         <h2 className=' main-font text-[#b9fc04]'>investing platform</h2>

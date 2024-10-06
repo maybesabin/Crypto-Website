@@ -3,7 +3,7 @@ import globe from '../assets/images/globe.gif'
 import Carousel from './Carousel'
 const TrustedPartner = () => {
     return (
-        <div className="lg:px-0 px-9 h-auto py-[7rem] w-full bg-black bg-grid-white/[0.1] relative flex flex-col items-center justify-start overflow-hidden text-white">
+        <div className="lg:px-0 px-4 h-auto py-[7rem] w-full bg-black bg-grid-white/[0.1] relative flex flex-col items-center justify-start overflow-hidden text-white">
 
             {/* Grid background  */}
             <div className="absolute overflow-hidden pointer-events-none inset-0 flex items-start justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>

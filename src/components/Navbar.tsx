@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             {/* Navbar  */}
-            <div className="lg:w-[75vw] w-full lg:px-0 px-9 z-[1000] bg-black">
+            <div className="lg:w-[75vw] w-full lg:px-0 px-4 z-[1000] bg-black">
                 <div className="flex items-center justify-between pt-9 opacity-100 relative">
                     <h1 className="main-font text-[#bae626] font-semibold text-3xl">CRYPTO.</h1>
 
