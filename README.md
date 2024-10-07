@@ -1,3 +1,3 @@
-#A Landing Page for a Crypto Mobile App
+# A Landing Page for a Crypto Mobile App
 
-##Tech Stack: Typescript, React, Tailwindcss, ShadcnUI
+## Tech Stack: Typescript, React, Tailwindcss, ShadcnUI
