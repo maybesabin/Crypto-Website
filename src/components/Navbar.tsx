@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Navbar  */}
-            <div className={`h-screen lg:hidden py-[9rem] transition-all duration-500 ease-in-out ${showNavbar ? "flex translate-x-0 opacity-100" : "hidden translate-x-[40rem] opacity-75"} flex-col items-start justify-center fixed bg-black text-white z-[999] w-screen px-6`}>
+            <div className={`h-screen lg:hidden py-[9rem] transition-all duration-500 ease-in-out ${showNavbar ? "flex translate-x-0 opacity-100" : "translate-x-[50rem] opacity-75"} flex-col items-start justify-center fixed bg-black text-white z-[999] w-screen px-6`}>
                 <ul className="flex flex-col items-start justify-center h-full gap-12 text-3xl text-zinc-400">
                     <li className="hover:text-white transition-all"><a href="#" className="main-font">Home</a></li>
                     <li className="hover:text-white transition-all"><a href="#" className="main-font">Services</a></li>
