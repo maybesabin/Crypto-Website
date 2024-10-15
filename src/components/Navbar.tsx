@@ -14,9 +14,9 @@ const Navbar = () => {
 
                     <ul className="lg:flex hidden items-center justify-center gap-9 text-[1rem] text-zinc-400">
                         <li className="hover:text-white transition-all"><a href="#">Home</a></li>
-                        <li className="hover:text-white transition-all"><a href="#">Services</a></li>
-                        <li className="hover:text-white transition-all"><a href="#">About</a></li>
-                        <li className="hover:text-white transition-all"><a href="#">What's New?</a></li>
+                        <li className="hover:text-white transition-all"><a href="#services">Services</a></li>
+                        <li className="hover:text-white transition-all"><a href="#about">About</a></li>
+                        <li className="hover:text-white transition-all"><a href="#features">What's New?</a></li>
                     </ul>
                     <button className="bg-[#bbfd03] hover:bg-[#ceff46] lg:flex hidden items-center justify-center transition-all text-black font-semibold text-xl h-12 w-auto px-7 rounded-xl">
                         Explore Now
@@ -49,9 +49,9 @@ const Navbar = () => {
             <div className={`h-screen lg:hidden py-[9rem] transition-all duration-500 ease-in-out ${showNavbar ? "flex translate-x-0 opacity-100" : "translate-x-[50rem] opacity-75"} flex-col items-start justify-center fixed bg-black text-white z-[999] w-screen px-6`}>
                 <ul className="flex flex-col items-start justify-center h-full gap-12 text-3xl text-zinc-400">
                     <li className="hover:text-white transition-all"><a href="#" className="main-font">Home</a></li>
-                    <li className="hover:text-white transition-all"><a href="#" className="main-font">Services</a></li>
-                    <li className="hover:text-white transition-all"><a href="#" className="main-font">About</a></li>
-                    <li className="hover:text-white transition-all"><a href="#" className="main-font">What's New?</a></li>
+                    <li className="hover:text-white transition-all"><a href="#services" className="main-font">Services</a></li>
+                    <li className="hover:text-white transition-all"><a href="#about" className="main-font">About</a></li>
+                    <li className="hover:text-white transition-all"><a href="#features" className="main-font">What's New?</a></li>
                 </ul>
                 <button className="bg-[#bbfd03] main-font hover:bg-[#ceff46] items-center justify-center transition-all text-black font-semibold text-[1rem] h-14 w-auto px-6 -mt-[5rem] rounded-xl">
                     Explore Now

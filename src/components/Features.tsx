@@ -109,7 +109,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="w-full bg-black bg-grid-white/[0.1] relative flex flex-col items-center justify-start overflow-hidden text-white">
+    <div id="features" className="w-full bg-black bg-grid-white/[0.1] relative flex flex-col items-center justify-start overflow-hidden text-white">
       {/* Grid background  */}
       <div className="absolute pointer-events-none inset-0 flex items-start justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
