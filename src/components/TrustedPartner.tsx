@@ -10,7 +10,7 @@ const TrustedPartner = () => {
 
 
             {/* Hero Section  */}
-            <section className='w-[75vw] flex flex-col items-center md:items-start justify-center relative'>
+            <section className='lg:w-[75vw] w-full flex flex-col items-center md:items-start justify-center relative'>
 
                 <div className="flex items-center lg:flex-row flex-col justify-between">
 
@@ -31,9 +31,9 @@ const TrustedPartner = () => {
                         <h1 className="main-font">02.</h1>
                         <h3 className="main-font lg:text-3xl text-xl">Industry <br />best practices. </h3>
                         <p className="font-light lg:text-xl text-[0.75rem] leading-5 lg:leading-[1.75rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum beatae eveniet explicabo in sit. Iusto!</p>
-                        <button className="text-xl main-font flex items-center gap-2 group">
-                            <h1 className="lg:text-2xl text-[1rem] group-hover:scale-105 main-font transition-all duration-300 ease-in-out">Learn More</h1>
-                            <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:scale-105 icon lg:h-[34px] lg:w-[34px] h-[24px] w-[24px] icon-tabler icon-tabler-arrow-narrow-right"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <button className="text-xl main-font flex items-center gap-2 ">
+                            <h1 className="lg:text-2xl text-[1rem] main-font transition-all duration-300 ease-in-out">Learn More</h1>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon lg:h-[34px] lg:w-[34px] h-[24px] w-[24px] icon-tabler icon-tabler-arrow-narrow-right" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <path d="M5 12l14 0" />
                                 <path d="M15 16l4 -4" />
@@ -48,11 +48,11 @@ const TrustedPartner = () => {
                     </div>
                 </div>
 
-                <div className="lg:mt-[12rem] mt-0 w-full flex xl:flex-row flex-col items-center md:items-start justify-center gap-[1vw]">
+                <div className="lg:mt-[12rem] mt-0 w-full flex xl:flex-row flex-col xl:items-end items-center justify-center gap-[1vw]">
 
-                    <div className='flex items-center flex-col justify-center xl:mb-0 mb-12 '>
+                    <div className='flex items-center flex-col justify-start xl:mb-0 mb-12 '>
                         <img src={globe} className='bg-transparent -mt-[5rem] w-[600px]' alt="" />
-                        <div className='lg:-mt-[10rem] -mt-12 md:pb-0 py-12'>
+                        <div className='-mt-12'>
                             <Carousel />
                         </div>
                     </div>
@@ -86,6 +86,7 @@ const TrustedPartner = () => {
                         </div>
                     </div>
                 </div>
+
             </section>
         </div>
     )

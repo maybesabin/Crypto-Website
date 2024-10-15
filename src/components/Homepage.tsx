@@ -49,7 +49,7 @@ const Homepage = () => {
                 "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
         },
     ];
-    
+
     return (
         <div className="w-full bg-black bg-grid-white/[0.1] relative flex flex-col items-center justify-start overflow-hidden text-white">
 
@@ -59,31 +59,31 @@ const Homepage = () => {
             <Navbar />
 
             {/* Hero Section  */}
-            <section className='lg:w-[75vw] w-full lg:px-0 px-4 flex items-center justify-between relative py-[7rem]'>
+            <section className='lg:w-[75vw] w-full lg:px-0 px-4 flex items-center justify-between relative md:pt-[12rem] pt-[10rem] pb-12'>
 
                 <div className='flex flex-col items-start justify-start gap-9'>
                     <div className='flex flex-col items-start justify-start gap-4 lg:text-7xl text-4xl font-bold tracking-wider'>
-                        <p className='lg:text-[1rem] text-xs flex items-center gap-2 text-white main-font tracking-[0.2rem]'>KEEP YOUR MONEY SAFE <span className='text-[#bcfd04] lg:text-3xl text-xl main-font'>!</span></p>
-                        <h1 className='bg-gradient-to-r from-white to-gray-700 bg-clip-text text-transparent main-font'>Best crypto</h1>
-                        <h2 className=' main-font text-[#b9fc04]'>investing platform</h2>
-                        <h1 className='bg-gradient-to-l from-white to-gray-700 bg-clip-text text-transparent main-font'>for your future.</h1>
+                        <p className='lg:text-[1rem] text-xs flex items-center gap-2 text-white main-font tracking-[0.2rem] fade'>KEEP YOUR MONEY SAFE <span className='text-[#bcfd04] lg:text-3xl text-xl main-font'>!</span></p>
+                        <h1 className='bg-gradient-to-r from-white to-gray-700 bg-clip-text text-transparent main-font fadeup'>Best crypto</h1>
+                        <h2 className=' main-font text-[#b9fc04] fadeup'>investing platform</h2>
+                        <h1 className='bg-gradient-to-l from-white to-gray-700 bg-clip-text text-transparent main-font fadeup'>for your future.</h1>
                     </div>
-                    <Separator className='md:w-[71%] w-full mt-2 bg-gradient-to-r from-zinc-500 to-gray-900' />
+                    <Separator className='md:w-[71%] w-full -mt-1 bg-gradient-to-r from-zinc-500 to-gray-900 fade' />
                     <div className='flex items-start gap-12'>
-                        <div className='flex'>
+                        <div className='flex faderight'>
                             <AnimatedTooltip items={people} />
                         </div>
                         <div className='flex flex-col items-start'>
-                            <h1 className='main-font lg:text-3xl text-xl font-semibold'>169K+</h1>
-                            <p className='text-zinc-400 lg:text-[1rem] text-xs leading-5'>Realtime Users</p>
+                            <h1 className='main-font lg:text-3xl text-xl font-semibold fadeleft'>169K+</h1>
+                            <p className='text-zinc-400 lg:text-[1rem] text-xs leading-5 fadeleft'>Realtime Users</p>
                         </div>
                     </div>
 
-                    <Separator className='md:w-[71%] w-full -mt-3 bg-gradient-to-r from-zinc-500 to-gray-900' />
+                    <Separator className='md:w-[71%] w-full -mt-2 bg-gradient-to-r from-zinc-500 to-gray-900 fade' />
 
-                    <div className='flex items-start gap-6'>
-                        
-                        <div className='flex items-center group'>
+                    <div className='flex items-center gap-6'>
+
+                        <div className='flex items-center group fadeup'>
                             <div className='border-2 border-[#bcfd04] h-16 w-16 rounded-full'></div>
                             <div className='flex items-center justify-center text-black h-16 w-16 rounded-full -ml-9 group-hover:-ml-12 bg-[#bcfd04] group-hover:bg-[#c3f53b] group-hover:scale-110 transition-all'>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="rotate-180 group-hover:rotate-[200deg] transition-all cursor-pointer icon icon-tabler icon-tabler-arrow-down-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -93,12 +93,12 @@ const Homepage = () => {
                                 </svg>
                             </div>
                         </div>
-                        <p className='text-zinc-400 w-1/2 lg:text-[1rem] text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis animi eveniet dolore distinctio iusto corporis.</p>
+                        <p className='text-zinc-400 w-1/2 lg:text-[1rem] text-xs fadeleft'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis animi eveniet dolore distinctio iusto corporis.</p>
                     </div>
                 </div>
 
                 <div className='md:flex hidden items-center justify-start'>
-                    <div className='-mt-12'>
+                    <div className='-mt-12 fadeup'>
                         <img src={bgimage} className='object-cover w-96' alt="" />
                     </div>
                 </div>

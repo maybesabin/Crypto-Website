@@ -2,14 +2,14 @@
 
 import { useState } from "react";
 
-
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false);
+
     return (
         <>
             {/* Navbar  */}
-            <div className="lg:w-[75vw] w-full lg:px-0 px-4 z-[1000] bg-black">
-                <div className="flex items-center justify-between pt-9 opacity-100 relative">
+            <div className="fade fixed w-full flex items-center justify-center lg:px-0 px-4 z-[1000] bg-black">
+                <div className="lg:w-[75vw] w-full flex items-center justify-between py-6 opacity-100 relative bg-black">
                     <h1 className="main-font text-[#bae626] font-semibold md:text-3xl text-xl">CRYPTO.</h1>
 
                     <ul className="lg:flex hidden items-center justify-center gap-9 text-[1rem] text-zinc-400">
@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Navbar  */}
-            <div className={`h-screen lg:hidden py-[9rem] transition-all duration-500 ease-in-out${showNavbar ? "flex translate-x-0 opacity-100" : "hidden translate-x-[40rem] opacity-75"} flex-col items-start justify-center fixed bg-black text-white z-[999] w-screen px-6`}>
+            <div className={`h-screen lg:hidden py-[9rem] transition-all duration-500 ease-in-out ${showNavbar ? "flex translate-x-0 opacity-100" : "hidden translate-x-[40rem] opacity-75"} flex-col items-start justify-center fixed bg-black text-white z-[999] w-screen px-6`}>
                 <ul className="flex flex-col items-start justify-center h-full gap-12 text-3xl text-zinc-400">
                     <li className="hover:text-white transition-all"><a href="#" className="main-font">Home</a></li>
                     <li className="hover:text-white transition-all"><a href="#" className="main-font">Services</a></li>
